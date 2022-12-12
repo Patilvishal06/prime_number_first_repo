@@ -8,5 +8,5 @@ if num > 1:
             break
         else:
             print(i,"number is prime number ")
-            print("sample test")
+
 
