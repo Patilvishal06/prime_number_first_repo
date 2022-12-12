@@ -4,8 +4,9 @@ num = int(input("Enter the number"))
 if num > 1:
     for i in range( 2, num):
         if(num % i) == 0:
-            print("not prime")
+            print(i, "not prime")
             break
         else:
-            print(i,"no is prime number ")
+            print(i,"number is prime number ")
+            print("sample test")
 
